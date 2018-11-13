@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 # First, let's prepare the dataset
 def create_dataset():
     # Read it
-    dataset = pd.read_csv("dataset/exoTrain.csv")
+    dataset = pd.read_csv("dataset/exoTrain.csv") # Dataset from Kaggle - view README.md
     # Replace labels
     # In the original format
     #   2 = Exoplanet
