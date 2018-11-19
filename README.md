@@ -18,7 +18,7 @@ Source - [Exoplanet Hunting in Deep Space](https://www.kaggle.com/keplersmachine
 ### Clean up our data
   - If we feed our model unprocessed data it will get confused and it will probably mess everything up
   - First I'm scaling the data using ```Sklearn```'s ```StandardScaler``` class
-  - Now, I want to have our data shaped as 3D Tensors, because we're going to use a CNN model to predict our labels
+  - Now, I want to have our data shaped as 3D Tensors, because we're going to use a CNN model to predict the labels
 ### Creating and training the model
   - I've created a CNN with:
     - Matrix reduction part
