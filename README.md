@@ -31,6 +31,6 @@ Source - [Exoplanet Hunting in Deep Space](https://www.kaggle.com/keplersmachine
   - For the training part I choosed 4 epochs with batches of size 32
   - The model automatically saves it's weights once an epoch is completed
 ### Evaluating our model
-  - Getting accuracy and loss values with the basic ```model.evaluate(train,test)``` 
+  - Getting accuracy and loss values with the basic ```model.evaluate(x,y)``` 
   - Getting the confusion matrix with ```Sklearn```
     
